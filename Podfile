@@ -6,6 +6,10 @@ target 'real-time-chat' do
   use_frameworks!
 
   # Pods for real-time-chat
-  pod 'JGProgressHUD'
-
+  pod 'JGProgressHUD','~>2.0.3'
+  pod 'Firebase/Core'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'SDWebImage','~>4.4.2'
 end

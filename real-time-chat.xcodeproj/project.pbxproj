@@ -15,6 +15,7 @@
 		9F3E7A89252C4FA5003D3573 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E7A88252C4FA5003D3573 /* CustomTextField.swift */; };
 		9F3E7A8C252C6066003D3573 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E7A8B252C6066003D3573 /* LoginViewModel.swift */; };
 		9F3E7A8F252C9924003D3573 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E7A8E252C9924003D3573 /* RegistrationViewModel.swift */; };
+		9FB2DD4E252D5DA20001D804 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FB2DD4D252D5DA20001D804 /* GoogleService-Info.plist */; };
 		9FCE2930252B56A800AC00C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE292F252B56A800AC00C3 /* AppDelegate.swift */; };
 		9FCE2932252B56A800AC00C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE2931252B56A800AC00C3 /* SceneDelegate.swift */; };
 		9FCE2934252B56A800AC00C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE2933252B56A800AC00C3 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 		9F3E7A88252C4FA5003D3573 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		9F3E7A8B252C6066003D3573 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		9F3E7A8E252C9924003D3573 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		9FB2DD4D252D5DA20001D804 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9FCE292C252B56A800AC00C3 /* real-time-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "real-time-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCE292F252B56A800AC00C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FCE2931252B56A800AC00C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				9FCE2933252B56A800AC00C3 /* ViewController.swift */,
 				9FCE2935252B56A800AC00C3 /* Main.storyboard */,
 				9FCE2938252B56A900AC00C3 /* Assets.xcassets */,
+				9FB2DD4D252D5DA20001D804 /* GoogleService-Info.plist */,
 				9FCE293A252B56A900AC00C3 /* LaunchScreen.storyboard */,
 				9FCE293D252B56A900AC00C3 /* Info.plist */,
 			);
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FCE293C252B56A900AC00C3 /* LaunchScreen.storyboard in Resources */,
+				9FB2DD4E252D5DA20001D804 /* GoogleService-Info.plist in Resources */,
 				9FCE2939252B56A900AC00C3 /* Assets.xcassets in Resources */,
 				9FCE2937252B56A800AC00C3 /* Main.storyboard in Resources */,
 			);
