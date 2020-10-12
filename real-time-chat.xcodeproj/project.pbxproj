@@ -23,6 +23,7 @@
 		9FCE2939252B56A900AC00C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE2938252B56A900AC00C3 /* Assets.xcassets */; };
 		9FCE293C252B56A900AC00C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE293A252B56A900AC00C3 /* LaunchScreen.storyboard */; };
 		9FCE294B252B590600AC00C3 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE294A252B590600AC00C3 /* ConversationsController.swift */; };
+		9FE2849D2534426700EC71A7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2849C2534426700EC71A7 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		9FCE293B252B56A900AC00C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FCE293D252B56A900AC00C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FCE294A252B590600AC00C3 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		9FE2849C2534426700EC71A7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		ECED2C02A3323D65D3CD2100 /* Pods-real-time-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-real-time-chat.release.xcconfig"; path = "Target Support Files/Pods-real-time-chat/Pods-real-time-chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 		9FCE2945252B587C00AC00C3 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				9FE2849C2534426700EC71A7 /* AuthService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				9FCE2934252B56A800AC00C3 /* ViewController.swift in Sources */,
 				9F3E7A8F252C9924003D3573 /* RegistrationViewModel.swift in Sources */,
 				9F3E7A86252C4CEE003D3573 /* InputContainerView.swift in Sources */,
+				9FE2849D2534426700EC71A7 /* AuthService.swift in Sources */,
 				9FCE2930252B56A800AC00C3 /* AppDelegate.swift in Sources */,
 				9FCE294B252B590600AC00C3 /* ConversationsController.swift in Sources */,
 				9FCE2932252B56A800AC00C3 /* SceneDelegate.swift in Sources */,
