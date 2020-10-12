@@ -24,6 +24,10 @@
 		9FCE293C252B56A900AC00C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE293A252B56A900AC00C3 /* LaunchScreen.storyboard */; };
 		9FCE294B252B590600AC00C3 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE294A252B590600AC00C3 /* ConversationsController.swift */; };
 		9FE2849D2534426700EC71A7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2849C2534426700EC71A7 /* AuthService.swift */; };
+		9FE284A02534747300EC71A7 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2849F2534747300EC71A7 /* NewMessageController.swift */; };
+		9FE284A3253479C700EC71A7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE284A2253479C700EC71A7 /* UserCell.swift */; };
+		9FE284A625347EE900EC71A7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE284A525347EE900EC71A7 /* User.swift */; };
+		9FE284A925347FAA00EC71A7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE284A825347FAA00EC71A7 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,10 @@
 		9FCE293D252B56A900AC00C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FCE294A252B590600AC00C3 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 		9FE2849C2534426700EC71A7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		9FE2849F2534747300EC71A7 /* NewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		9FE284A2253479C700EC71A7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		9FE284A525347EE900EC71A7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9FE284A825347FAA00EC71A7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		ECED2C02A3323D65D3CD2100 /* Pods-real-time-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-real-time-chat.release.xcconfig"; path = "Target Support Files/Pods-real-time-chat/Pods-real-time-chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				9FE2849C2534426700EC71A7 /* AuthService.swift */,
+				9FE284A825347FAA00EC71A7 /* Service.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -157,6 +166,7 @@
 			children = (
 				9F3E7A77252C3DB8003D3573 /* Authentication */,
 				9FCE294A252B590600AC00C3 /* ConversationsController.swift */,
+				9FE2849F2534747300EC71A7 /* NewMessageController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -174,6 +184,7 @@
 			children = (
 				9F3E7A85252C4CEE003D3573 /* InputContainerView.swift */,
 				9F3E7A88252C4FA5003D3573 /* CustomTextField.swift */,
+				9FE284A2253479C700EC71A7 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +192,7 @@
 		9FCE2949252B588200AC00C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9FE284A525347EE900EC71A7 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -306,12 +318,16 @@
 				9FE2849D2534426700EC71A7 /* AuthService.swift in Sources */,
 				9FCE2930252B56A800AC00C3 /* AppDelegate.swift in Sources */,
 				9FCE294B252B590600AC00C3 /* ConversationsController.swift in Sources */,
+				9FE284A3253479C700EC71A7 /* UserCell.swift in Sources */,
 				9FCE2932252B56A800AC00C3 /* SceneDelegate.swift in Sources */,
+				9FE284A625347EE900EC71A7 /* User.swift in Sources */,
+				9FE284A925347FAA00EC71A7 /* Service.swift in Sources */,
 				9F3E7A7C252C3DDC003D3573 /* RegistrationController.swift in Sources */,
 				9F3E7A79252C3DCD003D3573 /* LoginController.swift in Sources */,
 				9F3E7A7F252C4142003D3573 /* Extensions.swift in Sources */,
 				9F3E7A8C252C6066003D3573 /* LoginViewModel.swift in Sources */,
 				9F3E7A89252C4FA5003D3573 /* CustomTextField.swift in Sources */,
+				9FE284A02534747300EC71A7 /* NewMessageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
