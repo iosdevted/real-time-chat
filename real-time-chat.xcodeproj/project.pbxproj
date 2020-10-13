@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0478458D5B86550C7F5CEE9A /* Pods_real_time_chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A53CD0A562BCEABC2B00E6 /* Pods_real_time_chat.framework */; };
+		9F1FE2FB25356D1B00D6677A /* CustomInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE2FA25356D1B00D6677A /* CustomInputAccessoryView.swift */; };
+		9F1FE2FE25357D8C00D6677A /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE2FD25357D8C00D6677A /* MessageCell.swift */; };
+		9F1FE3012535821800D6677A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE3002535821800D6677A /* Message.swift */; };
+		9F1FE3042535852C00D6677A /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE3032535852C00D6677A /* MessageViewModel.swift */; };
 		9F3E7A79252C3DCD003D3573 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E7A78252C3DCD003D3573 /* LoginController.swift */; };
 		9F3E7A7C252C3DDC003D3573 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E7A7B252C3DDC003D3573 /* RegistrationController.swift */; };
 		9F3E7A7F252C4142003D3573 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E7A7E252C4142003D3573 /* Extensions.swift */; };
@@ -28,11 +32,16 @@
 		9FE284A3253479C700EC71A7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE284A2253479C700EC71A7 /* UserCell.swift */; };
 		9FE284A625347EE900EC71A7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE284A525347EE900EC71A7 /* User.swift */; };
 		9FE284A925347FAA00EC71A7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE284A825347FAA00EC71A7 /* Service.swift */; };
+		9FE284AC2534948200EC71A7 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE284AB2534948200EC71A7 /* ChatController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24D738E4C36E3208324E363A /* Pods-real-time-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-real-time-chat.debug.xcconfig"; path = "Target Support Files/Pods-real-time-chat/Pods-real-time-chat.debug.xcconfig"; sourceTree = "<group>"; };
 		78A53CD0A562BCEABC2B00E6 /* Pods_real_time_chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_real_time_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1FE2FA25356D1B00D6677A /* CustomInputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputAccessoryView.swift; sourceTree = "<group>"; };
+		9F1FE2FD25357D8C00D6677A /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		9F1FE3002535821800D6677A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9F1FE3032535852C00D6677A /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
 		9F3E7A78252C3DCD003D3573 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		9F3E7A7B252C3DDC003D3573 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		9F3E7A7E252C4142003D3573 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -55,6 +64,7 @@
 		9FE284A2253479C700EC71A7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		9FE284A525347EE900EC71A7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9FE284A825347FAA00EC71A7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9FE284AB2534948200EC71A7 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
 		ECED2C02A3323D65D3CD2100 /* Pods-real-time-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-real-time-chat.release.xcconfig"; path = "Target Support Files/Pods-real-time-chat/Pods-real-time-chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +177,7 @@
 				9F3E7A77252C3DB8003D3573 /* Authentication */,
 				9FCE294A252B590600AC00C3 /* ConversationsController.swift */,
 				9FE2849F2534747300EC71A7 /* NewMessageController.swift */,
+				9FE284AB2534948200EC71A7 /* ChatController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				9F3E7A91252C992C003D3573 /* Authentication */,
+				9F1FE3032535852C00D6677A /* MessageViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -185,6 +197,8 @@
 				9F3E7A85252C4CEE003D3573 /* InputContainerView.swift */,
 				9F3E7A88252C4FA5003D3573 /* CustomTextField.swift */,
 				9FE284A2253479C700EC71A7 /* UserCell.swift */,
+				9F1FE2FA25356D1B00D6677A /* CustomInputAccessoryView.swift */,
+				9F1FE2FD25357D8C00D6677A /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				9FE284A525347EE900EC71A7 /* User.swift */,
+				9F1FE3002535821800D6677A /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -316,18 +331,23 @@
 				9F3E7A8F252C9924003D3573 /* RegistrationViewModel.swift in Sources */,
 				9F3E7A86252C4CEE003D3573 /* InputContainerView.swift in Sources */,
 				9FE2849D2534426700EC71A7 /* AuthService.swift in Sources */,
+				9F1FE3042535852C00D6677A /* MessageViewModel.swift in Sources */,
 				9FCE2930252B56A800AC00C3 /* AppDelegate.swift in Sources */,
 				9FCE294B252B590600AC00C3 /* ConversationsController.swift in Sources */,
 				9FE284A3253479C700EC71A7 /* UserCell.swift in Sources */,
 				9FCE2932252B56A800AC00C3 /* SceneDelegate.swift in Sources */,
 				9FE284A625347EE900EC71A7 /* User.swift in Sources */,
 				9FE284A925347FAA00EC71A7 /* Service.swift in Sources */,
+				9F1FE2FE25357D8C00D6677A /* MessageCell.swift in Sources */,
 				9F3E7A7C252C3DDC003D3573 /* RegistrationController.swift in Sources */,
 				9F3E7A79252C3DCD003D3573 /* LoginController.swift in Sources */,
 				9F3E7A7F252C4142003D3573 /* Extensions.swift in Sources */,
 				9F3E7A8C252C6066003D3573 /* LoginViewModel.swift in Sources */,
+				9FE284AC2534948200EC71A7 /* ChatController.swift in Sources */,
 				9F3E7A89252C4FA5003D3573 /* CustomTextField.swift in Sources */,
+				9F1FE3012535821800D6677A /* Message.swift in Sources */,
 				9FE284A02534747300EC71A7 /* NewMessageController.swift in Sources */,
+				9F1FE2FB25356D1B00D6677A /* CustomInputAccessoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
