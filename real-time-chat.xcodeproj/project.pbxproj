@@ -12,6 +12,9 @@
 		9F1FE2FE25357D8C00D6677A /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE2FD25357D8C00D6677A /* MessageCell.swift */; };
 		9F1FE3012535821800D6677A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE3002535821800D6677A /* Message.swift */; };
 		9F1FE3042535852C00D6677A /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE3032535852C00D6677A /* MessageViewModel.swift */; };
+		9F1FE3072535935800D6677A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE3062535935800D6677A /* Constants.swift */; };
+		9F1FE30A2535C7B000D6677A /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE3092535C7B000D6677A /* ConversationCell.swift */; };
+		9F1FE30D2535CA7300D6677A /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FE30C2535CA7300D6677A /* ConversationViewModel.swift */; };
 		9F3E7A79252C3DCD003D3573 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E7A78252C3DCD003D3573 /* LoginController.swift */; };
 		9F3E7A7C252C3DDC003D3573 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E7A7B252C3DDC003D3573 /* RegistrationController.swift */; };
 		9F3E7A7F252C4142003D3573 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E7A7E252C4142003D3573 /* Extensions.swift */; };
@@ -42,6 +45,9 @@
 		9F1FE2FD25357D8C00D6677A /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		9F1FE3002535821800D6677A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		9F1FE3032535852C00D6677A /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		9F1FE3062535935800D6677A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9F1FE3092535C7B000D6677A /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		9F1FE30C2535CA7300D6677A /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewModel.swift; sourceTree = "<group>"; };
 		9F3E7A78252C3DCD003D3573 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		9F3E7A7B252C3DDC003D3573 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		9F3E7A7E252C4142003D3573 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -158,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				9F3E7A7E252C4142003D3573 /* Extensions.swift */,
+				9F1FE3062535935800D6677A /* Constants.swift */,
 			);
 			path = Utills;
 			sourceTree = "<group>";
@@ -187,6 +194,7 @@
 			children = (
 				9F3E7A91252C992C003D3573 /* Authentication */,
 				9F1FE3032535852C00D6677A /* MessageViewModel.swift */,
+				9F1FE30C2535CA7300D6677A /* ConversationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 				9FE284A2253479C700EC71A7 /* UserCell.swift */,
 				9F1FE2FA25356D1B00D6677A /* CustomInputAccessoryView.swift */,
 				9F1FE2FD25357D8C00D6677A /* MessageCell.swift */,
+				9F1FE3092535C7B000D6677A /* ConversationCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -328,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FCE2934252B56A800AC00C3 /* ViewController.swift in Sources */,
+				9F1FE3072535935800D6677A /* Constants.swift in Sources */,
 				9F3E7A8F252C9924003D3573 /* RegistrationViewModel.swift in Sources */,
 				9F3E7A86252C4CEE003D3573 /* InputContainerView.swift in Sources */,
 				9FE2849D2534426700EC71A7 /* AuthService.swift in Sources */,
@@ -339,12 +349,14 @@
 				9FE284A625347EE900EC71A7 /* User.swift in Sources */,
 				9FE284A925347FAA00EC71A7 /* Service.swift in Sources */,
 				9F1FE2FE25357D8C00D6677A /* MessageCell.swift in Sources */,
+				9F1FE30D2535CA7300D6677A /* ConversationViewModel.swift in Sources */,
 				9F3E7A7C252C3DDC003D3573 /* RegistrationController.swift in Sources */,
 				9F3E7A79252C3DCD003D3573 /* LoginController.swift in Sources */,
 				9F3E7A7F252C4142003D3573 /* Extensions.swift in Sources */,
 				9F3E7A8C252C6066003D3573 /* LoginViewModel.swift in Sources */,
 				9FE284AC2534948200EC71A7 /* ChatController.swift in Sources */,
 				9F3E7A89252C4FA5003D3573 /* CustomTextField.swift in Sources */,
+				9F1FE30A2535C7B000D6677A /* ConversationCell.swift in Sources */,
 				9F1FE3012535821800D6677A /* Message.swift in Sources */,
 				9FE284A02534747300EC71A7 /* NewMessageController.swift in Sources */,
 				9F1FE2FB25356D1B00D6677A /* CustomInputAccessoryView.swift in Sources */,
