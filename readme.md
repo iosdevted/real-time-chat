@@ -7,7 +7,7 @@ Real Time Chat App with Cloud Firestore & Swift 5
 </center>
 
 <p>
-Real Time Chat App build with Swift and uses firebase for backen. It has simeple and interactive user interface. You just need to login/signup and you are good to go.
+Real time chat app built using Swift and Firestore for backend. It has simple and interactive user interface. You just need to login/signup and you are good to go.
 </p>
 
 ## How to run a demo app
