@@ -20,7 +20,7 @@ class ProfileCell: UITableViewCell {
         iconImage.centerX(inView: view)
         iconImage.centerY(inView: view)
         
-        view.backgroundColor = .systemPurple
+        view.backgroundColor = #colorLiteral(red: 1, green: 0.6039215686, blue: 0.462745098, alpha: 1)
         view.setDimensions(height: 40, width: 40)
         view.layer.cornerRadius = 40 / 2
         return view

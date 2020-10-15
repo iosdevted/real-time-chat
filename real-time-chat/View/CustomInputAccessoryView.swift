@@ -28,7 +28,7 @@ class CustomInputAccessoryView: UIView {
         let button = UIButton(type: .system)
         button.setTitle("Send", for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-        button.setTitleColor(.systemPurple, for: .normal)
+        button.setTitleColor(#colorLiteral(red: 1, green: 0.6039215686, blue: 0.462745098, alpha: 1), for: .normal)
         button.addTarget(self, action: #selector(handleSendMessage), for: .touchUpInside)
         return button
     }()

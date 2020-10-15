@@ -22,7 +22,7 @@ class ProfileFooter: UIView {
         button.setTitle("Logout", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
-        button.backgroundColor = .systemPink
+        button.backgroundColor = #colorLiteral(red: 1, green: 0.6039215686, blue: 0.462745098, alpha: 1)
         button.layer.cornerRadius = 5
         button.addTarget(self, action: #selector(handleLogout), for: .touchUpInside)
         return button

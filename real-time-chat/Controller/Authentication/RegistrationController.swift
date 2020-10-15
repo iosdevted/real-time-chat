@@ -21,7 +21,7 @@ class RegistrationController: UIViewController {
         button.setImage(#imageLiteral(resourceName: "plus_photo"), for: .normal)
         button.tintColor = .white
         button.addTarget(self, action: #selector(handleSelectPhoto), for: .touchUpInside)
-        button.imageView?.contentMode = .scaleToFill
+        button.imageView?.contentMode = .scaleAspectFill
         button.clipsToBounds = true
         return button
         
@@ -65,7 +65,7 @@ class RegistrationController: UIViewController {
         button.setTitle("Sign Up", for: .normal)
         button.layer.cornerRadius = 5
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
-        button.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
+        button.backgroundColor = #colorLiteral(red: 1, green: 0.6039215686, blue: 0.462745098, alpha: 1).withAlphaComponent(0.5)
         button.setTitleColor(.white, for: .normal)
         button.setHeight(height: 50)
         button.isEnabled = false
@@ -222,10 +222,10 @@ extension RegistrationController: AuthenticationControllerProtocol {
     func checkFormStatus() {
         if viewModel.formIsValid {
             signUpButton.isEnabled = true
-            signUpButton.backgroundColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
+            signUpButton.backgroundColor = #colorLiteral(red: 1, green: 0.6039215686, blue: 0.462745098, alpha: 1)
         } else {
             signUpButton.isEnabled = false
-            signUpButton.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
+            signUpButton.backgroundColor = #colorLiteral(red: 1, green: 0.6039215686, blue: 0.462745098, alpha: 1).withAlphaComponent(0.5)
         }
     }
 }

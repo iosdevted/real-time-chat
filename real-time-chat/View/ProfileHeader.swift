@@ -25,7 +25,7 @@ class ProfileHeader: UIView {
         let button = UIButton(type: .system)
         button.setImage(UIImage(systemName: "xmark"), for: .normal)
         button.addTarget(self, action: #selector(handleDismissal), for: .touchUpInside)
-        button.tintColor = .white
+        button.tintColor = .black
         button.imageView?.setDimensions(height: 22, width: 22)
         return button
     }()
@@ -33,7 +33,7 @@ class ProfileHeader: UIView {
     private let profileImageView: UIImageView = {
        let iv = UIImageView()
         iv.clipsToBounds = true
-        iv.contentMode = .scaleToFill
+        iv.contentMode = .scaleAspectFill
         iv.layer.borderColor = UIColor.white.cgColor
         iv.layer.borderWidth = 4.0
         return iv
@@ -42,7 +42,7 @@ class ProfileHeader: UIView {
     private let fullnameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.textColor = .white
+        label.textColor = .black
         label.textAlignment = .center
         label.text = "test"
         return label
@@ -51,7 +51,7 @@ class ProfileHeader: UIView {
     private let usernameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 16)
-        label.textColor = .white
+        label.textColor = .black
         label.textAlignment = .center
         label.text = "@test"
         return label
@@ -87,7 +87,7 @@ class ProfileHeader: UIView {
     }
     
     func configureUI() {
-        backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
+        backgroundColor = .white
         
         profileImageView.setDimensions(height: 200, width: 200)
         profileImageView.layer.cornerRadius = 200 / 2
@@ -107,15 +107,6 @@ class ProfileHeader: UIView {
         addSubview(dismissButton)
         dismissButton.anchor(top: topAnchor, left: leftAnchor, paddingTop: 44, paddingLeft: 12)
         dismissButton.setDimensions(height: 48, width: 48)
-    }
-    
-    func configureGradientLayer() {
-        let gradient = CAGradientLayer()
-        gradient.colors = [UIColor.systemPurple.cgColor, UIColor.systemPink.cgColor]
-        gradient.locations = [0, 1]
-        layer.addSublayer(gradient)
-        gradient.frame = bounds
-        
     }
 }
 

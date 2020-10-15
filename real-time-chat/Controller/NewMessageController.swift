@@ -71,11 +71,11 @@ class NewMessageController: UITableViewController {
         navigationItem.searchController = searchController
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.hidesNavigationBarDuringPresentation = false
-        searchController.searchBar.placeholder = "Search for a user"
+        searchController.searchBar.placeholder = "Search"
         definesPresentationContext = false
         
         if let textField = searchController.searchBar.value(forKey: "searchField") as? UITextField {
-            textField.textColor = .systemPurple
+            textField.textColor = #colorLiteral(red: 1, green: 0.6039215686, blue: 0.462745098, alpha: 1)
             textField.backgroundColor = .white
         }
     }

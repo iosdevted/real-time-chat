@@ -21,7 +21,7 @@ class ConversationsController: UIViewController {
     private let newMessageButton: UIButton = {
         let button = UIButton(type: .system)
         button.setImage(UIImage(systemName: "plus"), for: .normal)
-        button.backgroundColor = .systemPurple
+        button.backgroundColor = #colorLiteral(red: 1, green: 0.6039215686, blue: 0.462745098, alpha: 1)
         button.tintColor = .white
         button.imageView?.setDimensions(height: 24, width: 24)
         button.addTarget(self, action: #selector(showNewMessage), for: .touchUpInside)
@@ -35,10 +35,6 @@ class ConversationsController: UIViewController {
         configureUI()
         authenticateUser()
         fetchConversations()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         configureNavigationBar(withTitle: "Messages", prefersLargeTitles: true)
     }
     
