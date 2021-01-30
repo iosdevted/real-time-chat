@@ -19,7 +19,7 @@ Real time chat app built using Swift and Firestore for backend. It has simple an
 3. Install the pods by running
 
 ```
-pod update
+pod install
 ```
 
 4. Open the xcworkspace file with the latest version of Xcode
